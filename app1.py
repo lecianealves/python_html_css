@@ -4,6 +4,7 @@
 # Cria código 
 # -> flask run
 # Para rodar serviço flask run
+# -> pip freeze > requirements.txt (Cria arquivo de depencias sm NPM javascript)
 
 # Importa flask 
 from flask import Flask 
