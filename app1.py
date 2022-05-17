@@ -4,7 +4,10 @@
 # Cria código 
 # -> flask run
 # Para rodar serviço flask run
-# -> pip freeze > requirements.txt (Cria arquivo de depencias sm NPM javascript)
+# -> pip freeze > requirements.txt (Cria arquivo de dependencias sm NPM javascript)
+# -> pip install python-dotenv
+# -> pip freeze > requirements.txt (Atualiza dependencias)
+
 
 # Importa flask 
 from flask import Flask 
