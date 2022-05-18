@@ -1,5 +1,5 @@
-# Importa flask
-from flask import Flask
+# Importa flask e Render template
+from flask import Flask, render_template
 
 # Cria app
 app = Flask("Hello")
@@ -7,4 +7,4 @@ app = Flask("Hello")
 # Cria rota (URL)
 @app.route("/hello")
 def hello():
-    return "Hello World"
+    return render_template("hello.html")

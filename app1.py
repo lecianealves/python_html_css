@@ -1,12 +1,13 @@
+# Flask : Werkzeug + Jinja
 # Comandos:
 # -> pip install flask - Instala Flask
 # -> flask --version
 # Cria código 
-# -> flask run
-# Para rodar serviço flask run
+# -> flask run (Para rodar serviço flask run)
 # -> pip freeze > requirements.txt (Cria arquivo de dependencias sm NPM javascript)
 # -> pip install python-dotenv
 # -> pip freeze > requirements.txt (Atualiza dependencias)
+# -> $Home $USER $Path
 
 
 # Importa flask 
