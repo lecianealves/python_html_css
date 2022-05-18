@@ -8,7 +8,10 @@
 # -> pip install python-dotenv
 # -> pip freeze > requirements.txt (Atualiza dependencias)
 # -> $Home $USER $Path
-
+# Comandos Git: 
+# -> git add .
+# -> git commit -m "Comentário aqui"
+# -> git push
 
 # Importa flask 
 from flask import Flask 
