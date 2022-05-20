@@ -8,9 +8,9 @@ Construção de Blog com Python utilizando o framework Flask
  ![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=lecianealves&theme=blue-green)
  ## 3. Contributors Badge
  ![Your Repository's Stats](https://contrib.rocks/image?repo=lecianealves/Python)
- ## 4. Random Joke Generator
- ![Jokes Card](https://readme-jokes.vercel.app/api)
+ // 4. Random Joke Generator
+ //![Jokes Card](https://readme-jokes.vercel.app/api)
  ## 5. Profile View Counter
  ![Profile View Counter](https://komarev.com/ghpvc/?username=lecianealves)
  ### Repository View Counter - HITS
- ![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https://github.com/lecianealves/Python)
+ ![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https://github.com/lecianealves/python_html_css)
