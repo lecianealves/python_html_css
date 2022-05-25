@@ -5,17 +5,15 @@
         <title>Aula de Python, html e css - Ocean Brasil</title>
     </head>
     <body>
-        <h1>Olá Fofura ...</h1>
-        <p></p>
-        <ol>
-            <li><span>Minha</span> primeira lista</li>
-            <ul>
-                <li>Meu primeiro item desordenado</li>
-            </ul>
-        </ol>
+
+        <h1 id="titulo"><span>Hello</span></h1>
+        {% for entrada in entradas %}
+        <h2> {{ entrada.titulo }} </h2>
+        <p> {{ entrada.texto }} </p>
+        {% endfor %}
+        
         <figure>
             <img height="250px" alt="" src="https://cdn.pixabay.com/photo/2020/07/11/21/46/kawaii-5395394_960_720.png">
-            <figcaption>Miau!!!</figcaption>
         </figure>
         <p>Lorem, ipsum dolor.</p>
     </body>

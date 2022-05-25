@@ -12,6 +12,9 @@
 # -> git add .
 # -> git commit -m "Comentário aqui"
 # -> git push
+# Ao reabrir ou alterar de máquina rodar pip para instalar requirents
+# pip install -r requirements.txt
+# 
 
 # Importa flask 
 from flask import Flask 

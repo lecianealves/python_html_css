@@ -1,0 +1,40 @@
+# Flask : Werkzeug + Jinja
+# Comandos:
+# -> pip install flask - Instala Flask
+# -> flask --version
+# Cria código 
+# -> flask run (Para rodar serviço flask run)
+# -> pip freeze > requirements.txt (Cria arquivo de dependencias sm NPM javascript)
+# -> pip install python-dotenv
+# -> pip freeze > requirements.txt (Atualiza dependencias)
+# -> $Home $USER $Path
+# Comandos Git: 
+# -> git add .
+# -> git commit -m "Comentário aqui"
+# -> git push
+# Ao reabrir ou alterar de máquina rodar pip para instalar requirents
+# pip install -r requirements.txt
+Comandos do Banco de Dados
+# sqlite3 --version
+# sqlite3 banco.bd < esquema.sql
+Jinja no html -> Permite usar pequenos códigos do Python
+{% %}
+
+        {% for nome in nome_pessoa %}
+        <h2 id="titulo"><span></span>Quem está logado:
+            {% if not nome %}
+                Estranho
+            {% else %}
+                {{ nome }}
+            {% endif %}
+        </span></h2>
+        {% endfor %}
+
+        # nome = ["Leciane", "Laíze", None, "Bruno", "Gulherme"]
+
+        posts = [
+        {"titulo": "Meu Titulo", "texto": "Olá pessoal"},
+        {"titulo": "Meu segundo post", "texto": "Olá"} 
+        ]
+        cur.fetchall -> testar, varre o cur
+        get_flashed_messages -> pegar mensagens no flask de alerta
